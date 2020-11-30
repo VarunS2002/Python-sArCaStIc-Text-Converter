@@ -1,6 +1,6 @@
 """
-This file can be run directly to get a GUI for converting the desired text or
-this file can be used as a module for getting the converted text in a different python program.
+This program can be run directly to get a GUI for converting the desired text or
+it can be used as a module for getting the converted text in a different python program.
 Simply add
 
 from sArCaStIc_Text_Converter import SarcasticText
