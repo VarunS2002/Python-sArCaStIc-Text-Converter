@@ -1,8 +1,8 @@
 # Python-sArCaStIc-Text-Converter
 
 ## [Downloads](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases)
->[![.exe: v1.0.0](https://img.shields.io/badge/.exe-v1.0.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.0.0/sArCaStIc_Text_Converter.exe)
-[![.py: v1.0.0](https://img.shields.io/badge/.py-v1.0.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.0.0/sArCaStIc_Text_Converter.py)
+>[![.exe: v1.1.0](https://img.shields.io/badge/.exe-v1.1.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.1.0/sArCaStIc_Text_Converter.exe)
+[![.py: v1.1.0](https://img.shields.io/badge/.py-v1.1.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.1.0/sArCaStIc_Text_Converter.py)
 >[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This program is used to convert normal text to sarcastic or mocking text by alternatively capitalizing characters.
@@ -29,6 +29,10 @@ it can be used as a module for getting the converted text in a different python 
  - For Windows https://www.python.org/downloads/ is recommended
 
  - Add Python to PATH/Environment Variables during installation in Windows (recommended)
+ 
+ - Required modules: ```pyperclip```
+ 
+ - Install by running ```pip install pyperclip``` in the command line
 
 -Requirements for 2:
  
@@ -36,7 +40,7 @@ it can be used as a module for getting the converted text in a different python 
  
 ## Usage:
 
-1. Run the program directly to get a GUI for converting the desired text
+1. Run the program directly to get a GUI for converting the desired text. Converted text is also copied to the clipboard.
 
 2. Can be used as a python module to get the converted text in a different python program. Example:
     ```
@@ -50,6 +54,10 @@ it can be used as a module for getting the converted text in a different python 
 - Use case 1 is available with both the .py and .exe files
 
 - Use case 2 is available only with the .py file
+
+-[auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) is used for compiling the program to a .exe file
+
+-[pyperclip](https://pypi.org/project/pyperclip/) is copying converted text to the clipboard
 
 ## Screenshots:
 
