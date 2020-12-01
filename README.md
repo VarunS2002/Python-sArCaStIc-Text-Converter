@@ -55,9 +55,9 @@ it can be used as a module for getting the converted text in a different python 
 
 - Use case 2 is available only with the .py file
 
--[auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) is used for compiling the program to a .exe file
+- [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) is used for compiling the program to a .exe file
 
--[pyperclip](https://pypi.org/project/pyperclip/) is copying converted text to the clipboard
+- [pyperclip](https://pypi.org/project/pyperclip/) is copying converted text to the clipboard
 
 ## Screenshots:
 
