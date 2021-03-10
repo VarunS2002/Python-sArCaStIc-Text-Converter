@@ -63,12 +63,13 @@ class SarcasticText:
         self.root.clipboard_append(self.text_output.get())
 
     @staticmethod
-    def convert_text(input_text: str) -> str:
+    def convert_text(input_text: str, print_to_console: bool = False) -> str:
         """
         Takes a string as a parameter and returns the string by alternatively capitalizing characters
         
         :param input_text: desired text to be converted
-        
+        :param print_to_console: whether or not to print converted text to console
+
         :return: converted text
         """
         converted_text: str = ''
@@ -77,6 +78,8 @@ class SarcasticText:
             return text
         for i in range(len(text)):
             converted_text += (i % 2 == 0) and text[i].lower() or text[i]
+        if print_to_console:
+            print(converted_text)
         return converted_text
 
 
