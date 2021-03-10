@@ -44,6 +44,12 @@ class SarcasticText:
 
     # noinspection PyUnusedLocal
     def __convert_text_gui(self, click_event=None) -> None:
+        """
+        Converts the text in the input field and sets the value of the label.
+        It also prints the converted text to the console.
+
+        :param click_event: tkinter.Event instance
+        """
         converted_text: str = self.convert_text(self.text_input.get())
         self.text_output.delete(0, tkinter.END)
         self.text_output.insert(0, converted_text)
