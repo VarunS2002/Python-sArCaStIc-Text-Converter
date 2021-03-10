@@ -50,7 +50,8 @@ class SarcasticText:
             converted_text += (i % 2 == 0) and text[i].lower() or text[i]
         self.text_output.delete(0, tkinter.END)
         self.text_output.insert(0, converted_text)
-        pyperclip.copy(converted_text)
+        self.root.clipboard_clear()
+        self.root.clipboard_append(self.text_output.get())
         print(converted_text)
 
     @staticmethod
@@ -73,7 +74,6 @@ class SarcasticText:
 
 if __name__ == "__main__":
     import tkinter
-    import pyperclip
 
     window: tkinter.Tk = tkinter.Tk()
     app: SarcasticText = SarcasticText(window)
