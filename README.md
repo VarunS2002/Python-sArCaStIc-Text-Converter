@@ -1,8 +1,8 @@
 # Python-sArCaStIc-Text-Converter
 
 ## [Downloads](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases)
->[![.exe: v1.2.0](https://img.shields.io/badge/.exe-v1.2.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.2.0/sArCaStIc_Text_Converter.exe)
-[![.py: v1.2.0](https://img.shields.io/badge/.py-v1.2.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.2.0/sArCaStIc_Text_Converter.py)
+>[![.exe: v1.2.0](https://img.shields.io/badge/.exe-v1.2.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.2.0/sArCaStIc_Text_Converter_1.2.0.exe)
+[![.py: v1.2.0](https://img.shields.io/badge/.py-v1.2.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.2.0/sArCaStIc_Text_Converter_1.2.0.py)
 >[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This program is used to convert normal text to sarcastic or mocking text by alternatively capitalizing characters.
