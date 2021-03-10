@@ -35,24 +35,26 @@ class SarcasticText:
         convert: tkinter.Button = tkinter.Button(frame, text="Convert", command=self.__convert_text_gui, width=10)
         convert.grid(row=0, column=1, sticky=tkinter.N + tkinter.S + tkinter.E + tkinter.W)
         self.text_output: tkinter.Entry = tkinter.Entry(frame)
-        self.text_output.grid(row=1, column=0, columnspan=2, sticky=tkinter.N + tkinter.S + tkinter.E + tkinter.W)
+        self.text_output.grid(row=1, column=0, sticky=tkinter.N + tkinter.S + tkinter.E + tkinter.W)
+        copy: tkinter.Button = tkinter.Button(frame, text="Copy", command=self.__copy_text_gui, width=10)
+        copy.grid(row=1, column=1, sticky=tkinter.N + tkinter.S + tkinter.E + tkinter.W)
         frame.pack(fill="both", expand=True)
         self.text_input.focus()
         self.text_input.bind('<Return>', self.__convert_text_gui)
 
     # noinspection PyUnusedLocal
     def __convert_text_gui(self, click_event=None) -> None:
-        converted_text: str = ''
-        text: str = (self.text_input.get()).upper()
-        if len(text) < 2:
-            return
-        for i in range(len(text)):
-            converted_text += (i % 2 == 0) and text[i].lower() or text[i]
+        converted_text: str = self.convert_text(self.text_input.get())
         self.text_output.delete(0, tkinter.END)
         self.text_output.insert(0, converted_text)
+        print(converted_text)
+
+    def __copy_text_gui(self) -> None:
+        """
+        Copies the converted text to the clipboard
+        """
         self.root.clipboard_clear()
         self.root.clipboard_append(self.text_output.get())
-        print(converted_text)
 
     @staticmethod
     def convert_text(input_text: str) -> str:
