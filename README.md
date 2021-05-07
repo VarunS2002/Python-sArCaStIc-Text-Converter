@@ -1,9 +1,10 @@
 # Python-sArCaStIc-Text-Converter
 
 ## [Downloads](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases)
->[![.exe: v1.2.0](https://img.shields.io/badge/.exe-v1.2.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.2.0/sArCaStIc_Text_Converter_1.2.0.exe)
-[![.py: v1.2.0](https://img.shields.io/badge/.py-v1.2.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.2.0/sArCaStIc_Text_Converter_1.2.0.py)
->[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+> [![.exe: v1.2.0](https://img.shields.io/badge/.exe-v1.2.0-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.2.0/sArCaStIc_Text_Converter_1.2.0.exe)
+[![.py: v1.2.1](https://img.shields.io/badge/.py-v1.2.1-brightgreen)](https://github.com/VarunS2002/Python-sArCaStIc-Text-Converter/releases/download/1.2.1/sArCaStIc_Text_Converter_1.2.1.py)
+> [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This program is used to convert normal text to sarcastic or mocking text by alternatively capitalizing characters.
 
@@ -11,32 +12,33 @@ For example, 'how are you doing bro?' becomes 'hOw aRe yOu dOiNg bRo?'.
 
 This is particularly used for mocking someone in text messages and used for memes.
 
-This program can be run directly to get a GUI for converting the desired text or
-it can be used as a module for getting the converted text in a different python program.
+This program can be run directly to get a GUI for converting the desired text, or it can be used as a module for getting
+the converted text in a different python program.
 
 ## Installation:
 
 -Types of variants available:
- 
- 1. `.py` (Python Source Code)
- 
- 2. `.exe` (Windows Executable)
- 
--Requirements for 1:
- 
- - Latest version of Python 
- 
- - For Windows https://www.python.org/downloads/ is recommended
 
- - Add Python to PATH/Environment Variables during installation in Windows (recommended)
+1. `.py` (Python Source Code)
+
+2. `.exe` (Windows Executable)
+
+-Requirements for 1:
+
+- Latest version of Python
+
+- For Windows https://www.python.org/downloads/ is recommended
+
+- Add Python to PATH/Environment Variables during installation in Windows (recommended)
 
 -Requirements for 2:
- 
- - Windows OS  
- 
+
+- Windows OS
+
 ## Usage:
 
-1. Run the program directly to get a GUI for converting the desired text. Converted text can also be copied to the clipboard.
+1. Run the program directly to get a GUI for converting the desired text. Converted text can also be copied to the
+   clipboard.
 
 2. Can be used as a python module to get the converted text in a different python program. Example:
     ```
@@ -57,4 +59,4 @@ it can be used as a module for getting the converted text in a different python 
 
 - GUI
 
-    ![GUI](https://i.imgur.com/jpvfWXV.png)
+  ![GUI](https://i.imgur.com/jpvfWXV.png)
