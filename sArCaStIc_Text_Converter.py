@@ -1,3 +1,5 @@
+from typing import Optional
+
 """
 This program can be run directly to get a GUI for converting the desired text or
 it can be used as a module for getting the converted text in a different python program.
@@ -20,7 +22,8 @@ class SarcasticText:
     convert the desired text or
     use the static method convert_text() with the desired text to be converted as a parameter.
     """
-    def __init__(self, root) -> None:
+
+    def __init__(self, root: 'tkinter.Tk') -> None:
         """
         Creates a GUI for converting the desired text
 
@@ -43,7 +46,7 @@ class SarcasticText:
         self.text_input.bind('<Return>', self.__convert_text_gui)
 
     # noinspection PyUnusedLocal
-    def __convert_text_gui(self, click_event=None) -> None:
+    def __convert_text_gui(self, click_event: Optional['tkinter.Event'] = None) -> None:
         """
         Converts the text in the input field and sets the value of the label.
         It also prints the converted text to the console.
